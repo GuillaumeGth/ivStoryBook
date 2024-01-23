@@ -12,7 +12,7 @@
 					{
 						"controlType": "textboxcontrol",	
 						"triggerOf": ["myWonderfulDondonTextbox"],					
-						"id": "myFirstTextbox",
+						"id": "emailbox",
 						"associatedText": "email",
 						"dataType": "email",
 						"rules": {
@@ -25,7 +25,7 @@
 										{
 											"property": "currentValue",
 											"value": "10",
-											"clientId": "mySecondTextbox",
+											"clientId": "bonus",
 											"validated": false,
 											"id": "f59ba318-8e9a-ee11-ac5b-e4424b229b3d",
 											"operator": "equal",
@@ -43,8 +43,8 @@
 					},							
 					{
 						"controlType": "textboxcontrol",
-						"triggerOf": ["myFirstTextbox"],											
-						"id": "mySecondTextbox",
+						"triggerOf": ["emailbox"],											
+						"id": "bonus",
 						"associatedText": "bonus julien will give me",
 						"dataType": "integer",
 						"designMethods": {
@@ -73,7 +73,7 @@
 					},
 					{
 						"controlType": "textboxcontrol",						
-						"id": "myWonderfulDondonTextbox",
+						"id": "manager",
 						"associatedText": "who s the best manager",						
 						"rules": {
 							"currentValue": [
@@ -85,7 +85,7 @@
 										{
 											"property": "associatedText",
 											"value": "LOL",
-											"clientId": "myFirstTextbox",
+											"clientId": "emailbox",
 											"validated": false,
 											"id": "f59ba318-8e9a-ee11-ac5b-e4634b229b3d",
 											"operator": "equal",
