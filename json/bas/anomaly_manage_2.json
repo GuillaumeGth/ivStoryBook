@@ -11,7 +11,7 @@
 				"children": [
 					{
 						"controlType": "textboxcontrol",	
-						"triggerOf": ["myWonderfulDondonTextbox"],					
+						"triggerOf": ["manager"],					
 						"id": "emailbox",
 						"associatedText": "email",
 						"dataType": "email",
@@ -53,16 +53,6 @@
 
 								}
 							],
-							"init": [
-								{
-									"layer": "project",
-									"method": "foo"
-								},
-								{
-									"layer": "buyer",
-									"method": "myMethod"
-								}
-							],
 							"dataBinding": [
 								{
 									"layer": "platform",
@@ -84,7 +74,7 @@
 									"conditions": [
 										{
 											"property": "associatedText",
-											"value": "LOL",
+											"value": "lol",
 											"clientId": "emailbox",
 											"validated": false,
 											"id": "f59ba318-8e9a-ee11-ac5b-e4634b229b3d",

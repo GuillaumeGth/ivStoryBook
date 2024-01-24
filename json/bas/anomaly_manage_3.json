@@ -42,16 +42,6 @@
 
 				}
 			],
-			"init": [
-				{
-					"layer": "project",
-					"method": "foo"
-				},
-				{
-					"layer": "buyer",
-					"method": "myMethod"
-				}
-			],
 			"dataBinding": [
 				{
 					"layer": "platform",
